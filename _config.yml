@@ -24,12 +24,13 @@ description: THis is a note about the use of this site.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "mcnamara.website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshtmcnamara
-github_username:  j-mcnamara
+#github_username:  j-mcnamara
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-  
+header_pages:
+- about.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
