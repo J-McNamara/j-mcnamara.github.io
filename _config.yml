@@ -23,8 +23,7 @@ description: THis is a note about the use of this site.
 # >- # this means to ignore newlines until "baseurl:"
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "mcnamara.website" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: joshtmcnamarai
-quora_username: joshmcnamara
+twitter_username: joshtmcnamara
 #github_username:  j-mcnamara
 # Build settings
 theme: minima
