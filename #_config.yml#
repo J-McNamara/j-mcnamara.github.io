@@ -1,4 +1,6 @@
-# This config file is meant for settings that affect your whole blog, values $$
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
@@ -18,21 +20,17 @@
 
 title: Josh McNamara
 email: mcnamara.website.contact@gmail.com
-description: Site description.
-
-# >- # this means to ignore newlines until "baseurl:"
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mcnamara.website" # the base hostname & protocol for your site, e.g. http://example.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Here is a alittle description it is a description of directories in my accessible. It also links to [[Welcome to Jekyll!]]
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshtmcnamara
-#github_username:  j-mcnamara
+github_username:  j-mcnamara
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-header_pages:
-- /pages/about.md
-- /pages/cv.md
-- /pages/ideas.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
