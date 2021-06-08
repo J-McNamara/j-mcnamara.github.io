@@ -5,5 +5,4 @@ permalink: /about/
 comments: true
 ---
 
-## Josh McNamara
 Things about me.

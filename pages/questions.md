@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Ideas"
+title: "Questions"
 categories: 
 permalink: /questions/
 comments: true
 ---
-Here are some questions
+Here are some questions.
