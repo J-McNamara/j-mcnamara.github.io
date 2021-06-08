@@ -29,9 +29,9 @@ twitter_username: joshtmcnamara
 theme: minima
 plugins:
   - jekyll-feed
-header_pages:
-- /pages/about.md
-- /pages/ideas.md
+#header_pages:
+#- /pages/about.md
+#- /pages/ideas.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
