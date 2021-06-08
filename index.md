@@ -9,7 +9,7 @@ permalink:
 comments: true
 ---
 
-- Answer some of my questions on [Quora](https://www.quora.com/profile/Josh-McNamara/questions).
+- Answer some of my questions [here](pages/questions.md) or on [Quora](https://www.quora.com/profile/Josh-McNamara/questions).
 - Send me an [email](mailto:mcnamara.website.contact@gmail.com).
 - Show me something on [Twitter](https://twitter.com/joshtmcnamara).
 - Check out my [academic publications](https://scholar.google.com/citations?user=sDR-KfQAAAAJ&hl=en).
