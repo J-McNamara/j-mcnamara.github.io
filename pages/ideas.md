@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ideas
+title: "Ideas"
 categories: 
-permalink: /ideas
+permalink: /ideas/
 ---
 Here are some ideas
