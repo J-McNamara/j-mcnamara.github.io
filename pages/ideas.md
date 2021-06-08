@@ -1,13 +1,7 @@
 ---
-layout: 
-title:
+layout: page
+title: Ideas
 categories: 
-permalink: /problems
+permalink: /ideas
 ---
-# Outstanding questions in biology
-Here is a post about cool stuff and
-
-
-This is where you can find [other things].
-
-[other things]: https://www.yahoo.com
+Here are some ideas
