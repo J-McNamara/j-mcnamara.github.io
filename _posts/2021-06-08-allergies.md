@@ -3,6 +3,7 @@ layout: post
 title: "Allergies"
 categories: biology,
 comments: true
+permalink: /allergies
 ---
 
 ## Why are people commonly allergic to the same things? 

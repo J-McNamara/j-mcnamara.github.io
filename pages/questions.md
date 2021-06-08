@@ -5,4 +5,4 @@ categories:
 permalink: /questions/
 comments: true
 ---
-Here are some questions.
+- Why do people have [allergies](mcnamara.website/allergies) to the same things?

@@ -5,4 +5,3 @@ categories:
 permalink: /posts/
 comments: true
 ---
-Here are my posts.
