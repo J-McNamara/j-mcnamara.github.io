@@ -18,15 +18,11 @@
 
 title: Josh McNamara
 email: mcnamara.website.contact@gmail.com
-description: Note about this page.
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: mcnamara-website
+description: THis is a note about the use of this site.
+
 # >- # this means to ignore newlines until "baseurl:"
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mcnamara.website" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mcnamara.website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshtmcnamara
 #github_username:  j-mcnamara
 # Build settings
@@ -35,7 +31,7 @@ plugins:
   - jekyll-feed
 header_pages:
 - /pages/about.md
-- ideas.md
+- /pages/ideas.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,3 +52,8 @@ header_pages:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: mcnamara-website
