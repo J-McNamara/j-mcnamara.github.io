@@ -1,8 +1,14 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 layout: page
 title: 'Ideas'
 categories: list
+=======
+layout: post
+title: "Some articles are just so short that we have to make the footer stick"
+categories: misc
+>>>>>>> parent of f157a71 (Deleted test matter)
 =======
 layout: post
 title: "Some articles are just so short that we have to make the footer stick"
