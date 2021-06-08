@@ -5,4 +5,6 @@ categories:
 permalink: /ideas/
 comments: true
 ---
-Here are some ideas.
+### Medical
+- More dimensions for histopathology
+- Treating acne with viruses
