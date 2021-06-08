@@ -1,6 +1,5 @@
 ---
 layout: post
-title: "Super short article2"
 comments: true
 ---
 
