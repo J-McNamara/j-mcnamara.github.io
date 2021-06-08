@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'Ideas'
 categories: list
 comments: true
