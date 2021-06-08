@@ -5,8 +5,9 @@ categories:
 permalink: /ideas/
 comments: true
 ---
-A list of ideas to help me keep track. Let me know if you know how to kill one or make it work.
+A list of questions and ideas that I have read or thought of. Let me know if you know how to take one a step further.
 
 ### Medical
 - More dimensions for histopathology
 - Treating acne with viruses
+- 
