@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test"
+title:  Testtest
 categories: testing
 ---
 This is some text about something.
