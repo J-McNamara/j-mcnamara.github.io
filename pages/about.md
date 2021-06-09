@@ -5,6 +5,6 @@ permalink: /about/
 comments: true
 ---
 
-![lab_pic](/media/lab_pic_2017.jpg)
+![lab_pic](/media/lab_pic_2017.jpeg)
 
 Things about me
