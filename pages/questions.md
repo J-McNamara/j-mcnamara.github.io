@@ -24,6 +24,7 @@ A running list of questions and links to my attempts to answer them.
 - How does cash payment influence affordability and innovation in medicine?
 - Are patent protections for biologic drugs useful?
 - What kinds of medical innovations are profitable when intellectual property protections are weak?
+- Why are successful biotech venture capital firms adapting a "venture creation" model, where ventures are started in-house?
 
 ### Computer science
 - What is the minimum number of dimensions necessary to implement a universal classical computer?
