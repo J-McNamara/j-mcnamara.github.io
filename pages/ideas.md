@@ -10,3 +10,4 @@ A list of ideas that I have read or thought of. Let me know if you know how to t
 ### Medical
 - More dimensions for histopathology
 - Treating acne with [phage](../_posts/2021-06-08-phage.md)
+- Antagonistic bacteria / phage pairs from covariation in metagenomics
