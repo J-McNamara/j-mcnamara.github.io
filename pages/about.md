@@ -5,4 +5,5 @@ permalink: /about/
 comments: true
 ---
 
-Things about me.
+![](../media/lab_pic_2017.jpg)
+Things about me
