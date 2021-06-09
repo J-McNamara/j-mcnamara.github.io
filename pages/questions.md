@@ -23,6 +23,7 @@ A running list of questions and links to my attempts to answer them.
 - Should we donate our electronic medical records to the public upon dying?
 - How does cash payment influence affordability and innovation in medicine?
 - Are patent protections for biologic drugs useful?
+- What kinds of medical innovations are profitable when intellectual property protections are weak?
 
 ### Computer science
 - What is the minimum number of dimensions necessary to implement a universal classical computer?
