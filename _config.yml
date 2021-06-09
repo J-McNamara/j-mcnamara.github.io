@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 header_pages:
 #- pages/posts.md
-#- pages/questions.md
+- pages/questions.md
 #- pages/ideas.md
 - pages/about.md
 # Exclude from processing.
