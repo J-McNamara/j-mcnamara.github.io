@@ -15,11 +15,8 @@ comments: true
 - Check out my [academic publications](https://scholar.google.com/citations?user=sDR-KfQAAAAJ&hl=en).
 
 ---
-
-
 # Questions
 A running list of questions and links to my attempts to answer them.
-
 ### Medical
 - More dimensions for histopathology
 - Treating acne with [phage](/_posts/2021-06-08-phage.md)
