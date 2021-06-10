@@ -15,7 +15,7 @@ A running list of questions and links to my attempts to answer them.
 - Why is [Myopia](https://mcnamara.website/myopia) on the rise, and what can we do about it? 
 - What causes [atherosclerosis](https://mcnamara.website/atherosclerosis), the leading killler of humans globally?
 - Are parasite-derived [immunosuppressants](https://mcnamara.website/immunosuppressants) useful as therapeutics?
-- Can T cell and B cell [receptor repertoire sequencing](https://mcnamara.website/immunoseq) serve as a "universal diagnostic" and enable the discovery of new drug targets? 
+- Can T cell and B cell [receptor repertoire sequencing](https://mcnamara.website/immunoseq) serve as a "universal diagnostic" and enable the discovery of new drug targets?
 
 ### Healthcare economics
 - Are hospital stay reimbursement caps a significant obstacle to antibiotic development?
