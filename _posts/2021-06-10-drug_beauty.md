@@ -5,6 +5,13 @@ categories: drugs
 comments: true
 permalink: /drug_beauty
 ---
+# Ways of measuring drug value
+- Lives saved 
+- Durability 
+- Cure vs palliation
+- QALY
+- QOL
+- 
 
 QALYs, dollars, and what makes a drug beautiful?
 
