@@ -28,7 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
 header_pages:
-#- pages/posts.md
+- pages/posts.md
 - pages/questions.md
 #- pages/ideas.md
 - pages/about.md
