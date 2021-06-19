@@ -21,6 +21,8 @@ A running list of questions and links to my attempts to answer them.
 - Why don't longevity mutations discovered in mutagenesis screens show up in organisms that have been experimentally evolved in the laboratory for long life?
 
 ### Healthcare economics
+- Is the pace of drug discovery stagnating?
+- Is the pace of medical innovation stagnating?
 - Are hospital stay reimbursement caps a significant obstacle to antibiotic development?
 - Are American insulin prices a scam?
 - How can we use electronic medical records to improve patient care and accelerate drug discovery?
