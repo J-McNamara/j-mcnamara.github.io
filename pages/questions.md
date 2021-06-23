@@ -16,6 +16,7 @@ A running list of questions and links to my attempts to answer them.
 - What causes [atherosclerosis](https://mcnamara.website/atherosclerosis), the leading killler of humans globally?
 - Are parasite-derived [immunosuppressants](https://mcnamara.website/immunosuppressants) useful as therapeutics?
 - Can T cell and B cell [receptor repertoire sequencing](https://mcnamara.website/immunoseq) serve as a "universal diagnostic" and enable the discovery of new drug targets?
+- How effective will NK cell therapies be in treating solid tumors?
 
 #### Aging
 - Why don't longevity mutations discovered in mutagenesis screens show up in organisms that have been experimentally evolved in the laboratory for long life?
