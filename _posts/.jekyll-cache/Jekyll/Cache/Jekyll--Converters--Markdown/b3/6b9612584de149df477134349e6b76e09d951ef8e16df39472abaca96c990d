@@ -1,0 +1,67 @@
+I"O<p>You are very capable and curious, and I think you can do better than immortal yeast!</p>
+
+<hr />
+
+<p><strong>Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#yeast-as-an-aging-model" id="markdown-toc-yeast-as-an-aging-model">Yeast as an aging model</a></li>
+  <li><a href="#reasons-to-make-an-immortal-yeast-cell" id="markdown-toc-reasons-to-make-an-immortal-yeast-cell">Reasons to make an immortal yeast cell</a></li>
+  <li><a href="#we-already-have-immortal-yeast" id="markdown-toc-we-already-have-immortal-yeast">We already have immortal yeast</a></li>
+  <li><a href="#say-you-still-want-to-do-it-how-do-you-define-a-cell" id="markdown-toc-say-you-still-want-to-do-it-how-do-you-define-a-cell">Say you still want to do it. How do you define a cell?</a></li>
+  <li><a href="#dont-work-on-things-that-are-short-of-the-real-thing" id="markdown-toc-dont-work-on-things-that-are-short-of-the-real-thing">Don’t work on things that are short of the real thing</a></li>
+  <li><a href="#isnt-that-throwing-away-model-systems" id="markdown-toc-isnt-that-throwing-away-model-systems">Isn’t that throwing away model systems</a></li>
+  <li><a href="#notes" id="markdown-toc-notes">Notes</a></li>
+</ul>
+
+<hr />
+
+<h3 id="yeast-as-an-aging-model">Yeast as an aging model</h3>
+<p>Budding yeast are perhaps the simplest organism one can grow in the laboratory that ages. Thier cell division is asymmetric, with a “mother” cell producing a smaller “bud” at each cycle. Each newborn bud then lives out a lifespan of ~25 cell divisions as a mother, producing more buds. At the end of this “replicative lifespan” mother cells wrinkle up, stop reproducing, and die. Sound familiar?</p>
+
+<p>As such, people have used it as a model to try and figure out what goes wrong in cells as they age that causes them to stop dividing and die.</p>
+
+<p>And some people have proposed x. This violates my <a href="/the-thing">Law of Doing The Thing</a>.</p>
+
+<h3 id="reasons-to-make-an-immortal-yeast-cell">Reasons to make an immortal yeast cell</h3>
+<p>The propositions - and I have considered a few are usually that</p>
+
+<h3 id="we-already-have-immortal-yeast">We already have immortal yeast</h3>
+<p>One way to think about this is to consider that we already have yeast cells that don’t age. As I mentioned, <em>budding</em> yeast are used as an aging model, but another lab organism, <em>fission</em> yeast, are not. This is because they divide by symmetric <a href="https://en.wikipedia.org/wiki/Fission_(biology)">binary fission</a>.</p>
+
+<p>Instead of working from an aging yeast towards an immortal yeast to figure out what went wrong, lets work from the immortal cells to the aging ones.</p>
+
+<p>How do these things live forever? A nice <a href="https://elifesciences.org/articles/20340" target="_blank">study</a> from a few years ago did a convincing job confirming what most people suspected - these cells, which divide symetrically, do not age. This is not to say that they are immortal, but that thier chances of dying do not increase with time.
+One feature of aging is <a href="">Gompertzian</a> mortality. This means that the probability of death at any particular moment increases with time. An 80 year old is more likely to die on any given Tuesday than an 8 year old.</p>
+
+<p>This increase in the <strong>hazard rate</strong> with time is not observed in several symmetrically dividing organisms.</p>
+
+<p>They grab on to one end of the yeast cell and x:
+<img src="https://static-movie-usa.glencoesoftware.com/mp4/10.7554/824/9923949731d305635f29cab1e9f7fe656247e878/elife-20340-media1.mp4" alt="fission-yeast-movie" /></p>
+
+<p>That gives you a mortality curve that looks like this:
+<img src="https://iiif.elifesciences.org/lax/20340%2Felife-20340-fig2-v3.tif/full/617,/0/default.webp" alt="fission-yeast-mortality-curve" /></p>
+
+<p>They have a finite lifespan and die eventually, but the chances of dying do not increase with the number of cell divisions.</p>
+
+<p>The same is true of <img src="https://advances.sciencemag.org/content/5/5/eaaw2069" alt="*E. coli*" />?</p>
+
+<h3 id="say-you-still-want-to-do-it-how-do-you-define-a-cell">Say you still want to do it. How do you define a cell?</h3>
+<p>In the past few years I have heard several people propose to engineer</p>
+
+<h3 id="dont-work-on-things-that-are-short-of-the-real-thing">Don’t work on things that are short of the real thing</h3>
+
+<h3 id="isnt-that-throwing-away-model-systems">Isn’t that throwing away model systems</h3>
+<ul>
+  <li>Yes, in a way</li>
+  <li>Model systems are cowardly</li>
+  <li>Let me tinker with yeast for 30 years - I have fallen to this</li>
+  <li>Genes and homology are conserved, but multiparameters are not conserved</li>
+  <li>Limiting</li>
+</ul>
+
+<h3 id="notes">Notes</h3>
+<ul>
+  <li>Yeast age roughly according to a <a href="https://en.wikipedia.org/wiki/Gompertz–Makeham_law_of_mortality">Gompertzian</a> hazard rate,</li>
+</ul>
+
+:ET

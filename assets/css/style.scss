@@ -1,0 +1,38 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+body {
+font-family: "Baskerville", serif;
+}
+
+header, title, h1 {
+font-family: "Helvetica", Helvetica, sans-serif;
+}
+
+h2, h3 {
+font-family: "Helvetica", Helvetica, sans-serif;
+//color: salmon;
+}
+
+h4, h5, h6 {
+font-family: "Helvetica", Helvetica, sans-serif;
+color: black;
+}
+
+.site-header {
+background-color: #b3e6ff;
+
+}
+
+.site-title, .page-link {
+color: black !important;
+}
+
+blockquote {
+    border-left: 5px solid #b3e6ff;
+}
