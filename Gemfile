@@ -11,4 +11,4 @@ gem "jekyll", "~> 4.1"
 gem "minima"
 
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
