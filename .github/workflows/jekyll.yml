@@ -3,18 +3,16 @@ name: Build and Deploy Jekyll Site
 on:
   push:
     branches:
-      - main  # or master, depending on your default branch name
+      - main
   pull_request:
     branches:
       - main
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -23,7 +21,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Ruby
@@ -36,20 +34,19 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Install dependencies
+      - name: Build with Jekyll
         run: |
           bundle install
-
-      - name: Build site
-        run: bundle exec jekyll build
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   deploy:
-    if: github.ref == 'refs/heads/main'  # only deploy from main branch
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
