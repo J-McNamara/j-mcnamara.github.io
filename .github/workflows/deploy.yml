@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - Master
       - main
     paths:
       - "assets/**"
