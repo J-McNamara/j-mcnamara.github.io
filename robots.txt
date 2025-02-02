@@ -1,0 +1,1 @@
+User-agent: * Disallow: Sitemap: https://j-mcnamara.github.io//sitemap.xml
