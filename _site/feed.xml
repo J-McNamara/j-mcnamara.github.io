@@ -1,314 +1,395 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mcnamara.website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mcnamara.website/" rel="alternate" type="text/html" /><updated>2022-12-17T10:58:33-05:00</updated><id>https://mcnamara.website/feed.xml</id><title type="html">Josh McNamara</title><subtitle>Notes on biotech, drug discovery, life science, and healthcare innovation.</subtitle><entry><title type="html">Science Quotes</title><link href="https://mcnamara.website/science-quotes" rel="alternate" type="text/html" title="Science Quotes" /><published>2022-08-08T00:00:00-04:00</published><updated>2022-08-08T00:00:00-04:00</updated><id>https://mcnamara.website/science-quotes</id><content type="html" xml:base="https://mcnamara.website/science-quotes">&lt;p&gt;A few quotes on science I’ve read or heard in lectures.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-02-02T15:59:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Josh McNamara</title><entry><title type="html">Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy</title><link href="http://localhost:4000/glioma" rel="alternate" type="text/html" title="Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy" /><published>2025-02-02T00:00:00-05:00</published><updated>2025-02-02T00:00:00-05:00</updated><id>http://localhost:4000/glioma-drugs</id><content type="html" xml:base="http://localhost:4000/glioma"><![CDATA[<p><strong>Abstract</strong></p>
 
-&lt;hr /&gt;
+<p>IDH1-mutant gliomas produce the oncometabolite D-2HG, driving tumor progression through metabolic and epigenetic disruption. While IDH inhibitors like vorasidenib slow tumor growth, they do not eradicate cancer cells. This article explores a novel strategy: cytotoxic prodrugs selectively activated by mutant IDH1, offering a targeted approach to directly kill tumor cells while minimizing harm to normal tissue. By leveraging the unique biochemistry of IDH1-mutant tumors, these prodrugs could provide a more effective treatment option beyond current IDH inhibitors.</p>
 
-&lt;p&gt;&lt;br /&gt;
-A good idea is like a good joke. They both have a spark. They make a connection. They require a certain suspension of one’s conventional thinking […] and I think it also requires a playfulness to have good ideas.&lt;br /&gt;
-- Jeremy Nathans, &lt;a href=&quot;https://www.youtube.com/watch?v=mWOjewh_6QQ&quot;&gt;Creativity in Science&lt;/a&gt;&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-“Cell biologists look; geneticists count; biochemists clean,” the scientist Arthur Kornberg once said. […] Watson and Crick played. They worked methodically, diligently, and carefully— but left enough room for their key strength: lightness. If they were to win this race, it would be through whimsy and intuition; they would laugh their way to DNA.&lt;br /&gt;
-- Siddhartha Mukherjee, &lt;em&gt;The Gene&lt;/em&gt;&lt;/p&gt;
+<h2 id="introduction-and-background">Introduction and Background</h2>
 
-&lt;p&gt;&lt;br /&gt;
-To have one experiment that works, and keep doing it all the time.&lt;br /&gt;
-- Alfred Hershey, describing scientific happiness (“Hershey heaven”)&lt;/p&gt;
+<h3 id="gliomas-and-idh1-mutations">Gliomas and IDH1 Mutations</h3>
+<p>Gliomas are a diverse group of primary brain tumors that arise from glial cells. They account for approximately 30% of all brain and central nervous system tumors and 80% of malignant brain tumors. Among gliomas, mutations in the isocitrate dehydrogenase 1 (IDH1) gene are frequently observed, particularly in lower-grade gliomas. The most common mutation is an arginine-to-histidine substitution at position 132 (R132H), which confers a gain-of-function phenotype.</p>
 
-&lt;p&gt;&lt;br /&gt;
-&lt;em&gt;kT&lt;/em&gt; giveth, and &lt;em&gt;kT&lt;/em&gt; taketh away.&lt;br /&gt;
-- Harry Noller, lecture at JHMI&lt;/p&gt;</content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html">A few quotes on science I’ve read or heard in lectures.</summary></entry><entry><title type="html">Friend Quotes on Science and Business</title><link href="https://mcnamara.website/friend-quotes" rel="alternate" type="text/html" title="Friend Quotes on Science and Business" /><published>2021-09-12T00:00:00-04:00</published><updated>2021-09-12T00:00:00-04:00</updated><id>https://mcnamara.website/friend-quotes-on-science</id><content type="html" xml:base="https://mcnamara.website/friend-quotes">&lt;p&gt;A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.&lt;/p&gt;
+<h3 id="role-of-idh1-r132h-in-oncogenesis">Role of IDH1 (R132H) in Oncogenesis</h3>
+<p>Wild-type IDH1 normally catalyzes the oxidative decarboxylation of isocitrate to alpha-ketoglutarate (α-KG), producing NADPH. However, the R132H mutant IDH1 converts α-KG to D-2-hydroxyglutarate (D-2HG). Elevated levels of D-2HG drive oncogenic transformation, in part by disrupting cellular differentiation and epigenetic regulation.</p>
 
-&lt;hr /&gt;
+<p><strong>Figure 1.</strong> Chemical structures of isocitrate, alpha-ketoglutarate, and D-2-hydroxyglutarate (D-2HG).
+<img src="assets/img/chemistry-notebook_1_0.png" alt="png" /></p>
 
-&lt;p&gt;&lt;br /&gt;
-Death is the greatest phenotype.&lt;br /&gt;
-- JZ&lt;/p&gt;
+<h3 id="exploiting-mutant-idh1-for-prodrug-therapy">Exploiting Mutant IDH1 for Prodrug Therapy</h3>
+<p>A <strong>prodrug</strong> is an inactive or less active form of a drug that is metabolized in the body to release the active molecule. Prodrugs can improve selectivity, reduce toxicity, or enhance pharmacokinetic profiles. In the context of the IDH1 (R132H) mutation, the enzyme’s altered substrate specificity offers a unique opportunity to design a prodrug that is preferentially activated in tumor cells, thereby minimizing damage to normal tissues.</p>
 
-&lt;p&gt;&lt;br /&gt;
-It seemed pretty cool to me, but I think everything is cool. I don’t know anything yet.&lt;br /&gt;
-- VQ&lt;/p&gt;
+<h3 id="selective-inhibitors-of-mutant-idh">Selective Inhibitors of Mutant IDH</h3>
+<p><strong>Vorasidenib</strong> (AG-881) is a dual inhibitor of mutant IDH1 and IDH2 that has shown promise in clinical trials for IDH-mutant gliomas. As an allosteric inhibitor, vorasidenib binds to and stabilizes the inactive conformation of the mutant enzyme, reducing the production of D-2HG. Key features include:</p>
 
-&lt;p&gt;&lt;br /&gt;
-Now you can just logic it out.&lt;br /&gt;
-- AL&lt;/p&gt;
+<ul>
+  <li><strong>Blood–brain barrier penetration</strong>: Vorasidenib can effectively cross the blood–brain barrier, an essential requirement for treating central nervous system tumors.</li>
+  <li><strong>Reduced D-2HG levels</strong>: By lowering D-2HG, vorasidenib can halt or slow the epigenetic and metabolic disruption driving gliomagenesis.</li>
+  <li><strong>Clinical trials</strong>: In the phase 3 INDIGO trial, vorasidenib significantly improved progression-free survival in patients with grade 2 IDH-mutant glioma. The median progression-free survival was 27.7 months for the vorasidenib group compared to 11.1 months for the placebo group (<a href="https://pubmed.ncbi.nlm.nih.gov/37272516/">PubMed</a>).</li>
+</ul>
 
-&lt;p&gt;&lt;br /&gt;
-If you’re studying something with a small effect, just do something else. Go find something with a big effect.&lt;br /&gt;
-- KR&lt;/p&gt;
+<p>While IDH inhibitors such as vorasidenib can stabilize or slow tumor progression, they often do not induce robust tumor cell death.</p>
 
-&lt;p&gt;&lt;br /&gt;
-Tension keeps us healthy and honest.&lt;br /&gt;
-- TH&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-In grad school you are in the hallway and you get to peek into as many doors as you want. You can go in or you can go knock on the next one.&lt;br /&gt;
-- LR&lt;/p&gt;
+<h2 id="rationale-for-a-cytotoxic-prodrug-approach">Rationale for a Cytotoxic Prodrug Approach</h2>
+<ul>
+  <li><strong>IDH Inhibitors (e.g., Vorasidenib)</strong>: Reduce D-2HG production, promote cellular differentiation, and slow tumor growth.</li>
+  <li><strong>Mutant IDH-Activated Cytotoxic Prodrugs</strong>: Directly kill tumor cells by releasing a toxic agent inside cells that harbor the mutation. This approach could reduce tumor mass rather than merely limiting its growth.</li>
+</ul>
 
-&lt;p&gt;&lt;br /&gt;
-If you don’t know what to do, make a mutant.&lt;br /&gt;
-- JGZ&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-If you don’t know what to do, make a movie.&lt;br /&gt;
-- RL (paraphrase)&lt;/p&gt;
+<h2 id="proposed-mechanism-of-action">Proposed Mechanism of Action</h2>
+<ol>
+  <li>
+    <p><strong>Design of the Prodrug</strong>
+A substrate analog of α-KG, isocitrate, D-2HG, or NADPH is engineered to carry a cytotoxic moiety. This prodrug remains inert in normal cells lacking the mutant IDH enzyme.</p>
+  </li>
+  <li>
+    <p><strong>Selective Activation in Mutant IDH1 (R132H) Cells</strong>
+The mutant IDH1 (R132H) enzyme recognizes and converts this modified analog in a way that triggers the release of the cytotoxic payload.</p>
+  </li>
+  <li>
+    <p><strong>Tumor Cell Killing</strong>
+Once activated, the agent induces cell death in IDH-mutant cells. Normal cells do not perform this enzymatic conversion and are spared from toxic effects.</p>
+  </li>
+  <li>
+    <p><strong>Reduced Off-Target Toxicity</strong>
+By confining drug activation to cells harboring IDH1 (R132H), systemic toxicity can be minimized, potentially improving the therapeutic index compared to non-targeted chemotherapies.</p>
+  </li>
+</ol>
 
-&lt;p&gt;&lt;br /&gt;
-Protein structures are like Niagara Falls. Everybody can’t wait to see it, and then you finally get there and just say “Oh. Nice.”&lt;br /&gt;
-- RA&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-You can’t find the molecule, feed it to the mice, design the label on the box and send it to the pharmacy yourself.&lt;br /&gt;
-- KC&lt;/p&gt;
+<h2 id="proposed-prodrug-designs">Proposed Prodrug Designs</h2>
 
-&lt;p&gt;&lt;br /&gt;
-The immune system is about the worst thing that ever happened to the average cell.&lt;br /&gt;
-- GK&lt;/p&gt;
+<p>Some of these structures are wrong and the reactions are not balanced. But the sketches convey the principle.</p>
 
-&lt;p&gt;&lt;br /&gt;
-An R01 is probably one of the harder ways to get your hands on a half a million dollars.&lt;br /&gt;
-- JLWM&lt;/p&gt;
+<h3 id="α-kg-derivative-prodrug">α-KG Derivative Prodrug</h3>
+<p><strong>Mechanism Sketch:</strong> Mutant IDH-mediated activation releases a nitrogen mustard warhead.
+<img src="assets/img/chemistry-notebook_5_0.png" alt="png" /></p>
 
-&lt;p&gt;&lt;br /&gt;
-Don’t let anyone talk to you like that . . .  You can just go out there and do anything. It not like in school. I can go buy Goldman Sachs tomorrow if I can convince the right people to lend me money. No one is checking my report card.&lt;br /&gt;
-- BM&lt;/p&gt;
+<h3 id="isocitrate-like-self-immolative-prodrug">Isocitrate-Like Self-Immolative Prodrug</h3>
+<p><strong>Mechanism Sketch:</strong> Self-immolative release of 5-FU after mutant IDH processing.
+<img src="assets/img/chemistry-notebook_7_0.png" alt="png" /></p>
 
-&lt;p&gt;&lt;br /&gt;
-Everything interesting in cell biology is happening in pond scum.&lt;br /&gt;
-- GK&lt;/p&gt;
+<h3 id="2-hg-mimic-prodrug">2-HG Mimic Prodrug</h3>
+<p><strong>Mechanism Sketch:</strong> Mutant IDH catalysis releases a reactive aldehyde.
+<img src="assets/img/chemistry-notebook_9_0.png" alt="png" /></p>
 
-&lt;p&gt;&lt;br /&gt;
-It’s a nice courtyard, sure. I’d rather own Genentech… but nice.&lt;br /&gt;
-- NL, on Restriction Enzyme Courtyard at JHMI&lt;/p&gt;
+<h3 id="nadph-linked-prodrug">NADPH-Linked Prodrug</h3>
+<p><strong>Mechanism Sketch:</strong> Redox-mediated release of an alkylating agent.
+<img src="assets/img/chemistry-notebook_11_0.png" alt="png" /></p>]]></content><author><name></name></author><category term="drug-discovery," /><category term="cancer," /><category term="research," /><category term="science," /><category term="ideas" /><summary type="html"><![CDATA[Going from mutant-selective inhibition to mutant-selective toxicity.]]></summary></entry><entry><title type="html">Science Quotes</title><link href="http://localhost:4000/science-quotes" rel="alternate" type="text/html" title="Science Quotes" /><published>2022-08-08T00:00:00-04:00</published><updated>2022-08-08T00:00:00-04:00</updated><id>http://localhost:4000/science-quotes</id><content type="html" xml:base="http://localhost:4000/science-quotes"><![CDATA[<p>A few quotes on science I’ve read or heard in lectures.</p>
 
-&lt;p&gt;&lt;br /&gt;
-Why apply for a million dollars when I can get a billion dollars?&lt;br /&gt;
-- CV&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.goodreads.com/quotes/353571-a-foolish-consistency-is-the-hobgoblin-of-little-minds-adored&quot;&gt;Consistency&lt;/a&gt; is the spice of life.&lt;br /&gt;
-- JWM&lt;/p&gt;
+<p><br />
+A good idea is like a good joke. They both have a spark. They make a connection. They require a certain suspension of one’s conventional thinking […] and I think it also requires a playfulness to have good ideas.<br />
+- Jeremy Nathans, <a href="https://www.youtube.com/watch?v=mWOjewh_6QQ">Creativity in Science</a></p>
 
-&lt;p&gt;&lt;br /&gt;
-When I really do someone a favor I’m more likely to end up with an acknowledgement than an authorship. Why aren’t we keeping track of that?&lt;br /&gt;
-- TA (paraphrase)&lt;/p&gt;
+<p><br />
+“Cell biologists look; geneticists count; biochemists clean,” the scientist Arthur Kornberg once said. […] Watson and Crick played. They worked methodically, diligently, and carefully— but left enough room for their key strength: lightness. If they were to win this race, it would be through whimsy and intuition; they would laugh their way to DNA.<br />
+- Siddhartha Mukherjee, <em>The Gene</em></p>
 
-&lt;p&gt;&lt;br /&gt;
-I wish it was like old times where you can mess around with experiments at your house all day and just write your friends a letter when you find something cool.&lt;br /&gt;
-- AT&lt;/p&gt;
+<p><br />
+To have one experiment that works, and keep doing it all the time.<br />
+- Alfred Hershey, describing scientific happiness (“Hershey heaven”)</p>
 
-&lt;p&gt;&lt;br /&gt;
-Biology isn’t like building a bridge. It’s less incremental. It’s more like island hopping. If you don’t make it to another island you don’t really get anywhere.&lt;br /&gt;
--AL&lt;/p&gt;
+<p><br />
+<em>kT</em> giveth, and <em>kT</em> taketh away.<br />
+- Harry Noller, lecture at JHMI</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science I’ve read or heard in lectures.]]></summary></entry><entry><title type="html">Friend Quotes on Science and Business</title><link href="http://localhost:4000/friend-quotes" rel="alternate" type="text/html" title="Friend Quotes on Science and Business" /><published>2021-09-12T00:00:00-04:00</published><updated>2021-09-12T00:00:00-04:00</updated><id>http://localhost:4000/friend-quotes-on-science</id><content type="html" xml:base="http://localhost:4000/friend-quotes"><![CDATA[<p>A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.</p>
 
-&lt;p&gt;&lt;br /&gt;
-It’s a great assay. The incubation time is exactly the length of my TV show.&lt;br /&gt;
-- LM&lt;/p&gt;
+<hr />
 
-&lt;p&gt;&lt;br /&gt;
-People will do anything to get their paper picked up by the big journals except write better.&lt;br /&gt;
-- GK&lt;/p&gt;</content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html">A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.</summary></entry><entry><title type="html">Questions</title><link href="https://mcnamara.website/questions" rel="alternate" type="text/html" title="Questions" /><published>2021-08-28T00:00:00-04:00</published><updated>2021-08-28T00:00:00-04:00</updated><id>https://mcnamara.website/questions</id><content type="html" xml:base="https://mcnamara.website/questions">&lt;p&gt;A running list of questions that occur to me. I often ask questions on &lt;a href=&quot;https://www.quora.com/profile/Josh-McNamara/questions&quot;&gt;Quora&lt;/a&gt; as well.&lt;/p&gt;
+<p><br />
+Death is the greatest phenotype.<br />
+- JZ</p>
 
-&lt;hr /&gt;
+<p><br />
+It seemed pretty cool to me, but I think everything is cool. I don’t know anything yet.<br />
+- VQ</p>
 
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#biology&quot; id=&quot;markdown-toc-biology&quot;&gt;Biology&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#medicine-and-drug-discovery&quot; id=&quot;markdown-toc-medicine-and-drug-discovery&quot;&gt;Medicine and drug discovery&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#aging&quot; id=&quot;markdown-toc-aging&quot;&gt;Aging&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#misc-biology&quot; id=&quot;markdown-toc-misc-biology&quot;&gt;Misc. Biology&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#research-institutions-and-culture&quot; id=&quot;markdown-toc-research-institutions-and-culture&quot;&gt;Research institutions and culture&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#healthcare-business-and-economics&quot; id=&quot;markdown-toc-healthcare-business-and-economics&quot;&gt;Healthcare business and economics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#computer-science&quot; id=&quot;markdown-toc-computer-science&quot;&gt;Computer science&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#chemistry&quot; id=&quot;markdown-toc-chemistry&quot;&gt;Chemistry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#physics&quot; id=&quot;markdown-toc-physics&quot;&gt;Physics&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#thermodynamics&quot; id=&quot;markdown-toc-thermodynamics&quot;&gt;Thermodynamics&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#economics&quot; id=&quot;markdown-toc-economics&quot;&gt;Economics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#invention&quot; id=&quot;markdown-toc-invention&quot;&gt;Invention&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#cooling&quot; id=&quot;markdown-toc-cooling&quot;&gt;Cooling&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#philosophy&quot; id=&quot;markdown-toc-philosophy&quot;&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#sport&quot; id=&quot;markdown-toc-sport&quot;&gt;Sport&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#misc&quot; id=&quot;markdown-toc-misc&quot;&gt;Misc.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Now you can just logic it out.<br />
+- AL</p>
 
-&lt;hr /&gt;
+<p><br />
+If you’re studying something with a small effect, just do something else. Go find something with a big effect.<br />
+- KR</p>
 
-&lt;h3 id=&quot;biology&quot;&gt;Biology&lt;/h3&gt;
-&lt;h5 id=&quot;medicine-and-drug-discovery&quot;&gt;Medicine and drug discovery&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Would use of additional dyes in routine histology improve its diagnostic capacity?&lt;/li&gt;
-  &lt;li&gt;Can acne be treated with bacteriophage?&lt;/li&gt;
-  &lt;li&gt;Can we infer pairs of bacteria and phage that kill each other from their covariation in metagenomic sequencing experiments?&lt;/li&gt;
-  &lt;li&gt;Why do people have allergies to the same things?&lt;/li&gt;
-  &lt;li&gt;Why is myopia on the rise, and what can we do about it?&lt;/li&gt;
-  &lt;li&gt;Why are autoimmune diseases becoming more prevalent?&lt;/li&gt;
-  &lt;li&gt;Why is obesity becoming more prevalent?&lt;/li&gt;
-  &lt;li&gt;Do we really understand the cause of atherosclerosis, the leading killer of humans globally?&lt;/li&gt;
-  &lt;li&gt;Are parasite-derived immunosuppressants useful as therapeutics?&lt;/li&gt;
-  &lt;li&gt;Can T cell and B cell receptor repertoire sequencing serve as a “universal diagnostic” and enable the discovery of new drug targets?&lt;/li&gt;
-  &lt;li&gt;How effective will NK cell therapies be in treating solid tumors?&lt;/li&gt;
-  &lt;li&gt;Have we dismissed anything as quackery that will turn out to be a useful therapy?&lt;/li&gt;
-  &lt;li&gt;Is rational drug design overrated?&lt;/li&gt;
-  &lt;li&gt;How can we use experimental evolution to develop better drugs?&lt;/li&gt;
-  &lt;li&gt;Should we care about unintended laboratory evolution in model organisms?&lt;/li&gt;
-  &lt;li&gt;How does sugar cause pain sensation in teeth?&lt;/li&gt;
-  &lt;li&gt;Which treatments work for chronic back pain?&lt;/li&gt;
-  &lt;li&gt;How can we make pre-clinical assays of drug candidates more predictive?&lt;/li&gt;
-  &lt;li&gt;How can we deal with evolved resistance to therapies?&lt;/li&gt;
-  &lt;li&gt;How much can polygenic traits be modulated by single mutations or treatment with a single drug?&lt;/li&gt;
-  &lt;li&gt;Which foods are the most thermogenic?&lt;/li&gt;
-  &lt;li&gt;Which drugs enhance cognition?&lt;/li&gt;
-  &lt;li&gt;What goes wrong when we try to freeze organs?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Tension keeps us healthy and honest.<br />
+- TH</p>
 
-&lt;h5 id=&quot;aging&quot;&gt;Aging&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why aren’t longevity mutations discovered in mutagenesis screens extant in wild-type populations?&lt;/li&gt;
-  &lt;li&gt;Do diseases of aging share common causes?
-    &lt;ul&gt;
-      &lt;li&gt;Should we continue to address them on a disease-by-disease basis?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why can’t age-associated aggregates like drusen, lipofuscin, amyloid, Lewy bodies, and glycation be degraded?&lt;/li&gt;
-  &lt;li&gt;Why don’t artificial hearts last forever?&lt;/li&gt;
-  &lt;li&gt;Which interventions currently reduce all-cause mortality?&lt;/li&gt;
-  &lt;li&gt;Does evolutionary theory contradict some of the most popular theories of the cause of aging? (Read &lt;a href=&quot;https://www.faculty.uci.edu/profile.cfm?faculty_id=5261&quot;&gt;Michael Rose&lt;/a&gt; for an aging Theory of Everything.)&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+In grad school you are in the hallway and you get to peek into as many doors as you want. You can go in or you can go knock on the next one.<br />
+- LR</p>
 
-&lt;h5 id=&quot;misc-biology&quot;&gt;Misc. Biology&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why are mammalian sex ratios roughly equal?&lt;/li&gt;
-  &lt;li&gt;How do cells adjust to cold shocks?&lt;/li&gt;
-  &lt;li&gt;How does karyotypic speciation happen in sexual organisms, given that their karyotype must be compatible with a mate’s?&lt;/li&gt;
-  &lt;li&gt;Is x-chromosome inactivation reversible?&lt;/li&gt;
-  &lt;li&gt;What determines the reversibility of mitotic exit?&lt;/li&gt;
-  &lt;li&gt;How much information is in a cell?&lt;/li&gt;
-  &lt;li&gt;Does &lt;a href=&quot;https://en.wikipedia.org/wiki/Muller%27s_ratchet&quot;&gt;Muller’s ratchet&lt;/a&gt; make sense?&lt;/li&gt;
-  &lt;li&gt;How does biomineral morphogenesis (growth of bones, diatoms, etc.) work?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+If you don’t know what to do, make a mutant.<br />
+- JGZ</p>
 
-&lt;h3 id=&quot;research-institutions-and-culture&quot;&gt;Research institutions and culture&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;How useful is basic biology research?&lt;/li&gt;
-  &lt;li&gt;How useful are research exercises, vs just working on a real problem?&lt;/li&gt;
-  &lt;li&gt;Which tools can I use to enhance my thinking?&lt;/li&gt;
-  &lt;li&gt;Should researchers be teachers?&lt;/li&gt;
-  &lt;li&gt;How can we improve scientific education?&lt;/li&gt;
-  &lt;li&gt;Can bureaucracies make discoveries?&lt;/li&gt;
-  &lt;li&gt;How much of institutional excellence is feedback from good recruiting?&lt;/li&gt;
-  &lt;li&gt;Does earmarking research grants increase or decrease capital efficiency?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+If you don’t know what to do, make a movie.<br />
+- RL (paraphrase)</p>
 
-&lt;h3 id=&quot;healthcare-business-and-economics&quot;&gt;Healthcare business and economics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Is the pace of drug discovery stagnating (a.k.a. &lt;a href=&quot;https://en.wikipedia.org/wiki/Eroom%27s_law&quot;&gt;Eroom’s law&lt;/a&gt;)?&lt;/li&gt;
-  &lt;li&gt;Is the pace of medical innovation stagnating?&lt;/li&gt;
-  &lt;li&gt;How should we interpret the &lt;a href=&quot;https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment&quot;&gt;RAND Health Insurance Experiment&lt;/a&gt;?&lt;/li&gt;
-  &lt;li&gt;Why isn’t it profitable to develop new antibiotics?&lt;/li&gt;
-  &lt;li&gt;Are American insulin prices a scam?&lt;/li&gt;
-  &lt;li&gt;How can we improve electronic medical records to improve patient care and accelerate drug discovery?&lt;/li&gt;
-  &lt;li&gt;Should we donate our electronic medical records to the public upon dying?&lt;/li&gt;
-  &lt;li&gt;How does cash payment for treatments influence affordability and innovation in medicine?&lt;/li&gt;
-  &lt;li&gt;Are patent protections for biologic drugs useful to society?&lt;/li&gt;
-  &lt;li&gt;What kinds of medical innovations can be successful when intellectual property and regulatory protections are weak?&lt;/li&gt;
-  &lt;li&gt;Why are successful biotech venture capital firms adapting a “venture creation” model, where ventures are started in-house?&lt;/li&gt;
-  &lt;li&gt;Are discovery-phase research programs at large pharmaceutical companies productive?&lt;/li&gt;
-  &lt;li&gt;What are the biggest secular trends in healthcare / biotech / pharma?&lt;/li&gt;
-  &lt;li&gt;Would it be useful to be able to bet directly on the outcome of clinical trials without trading a company’s shares?&lt;/li&gt;
-  &lt;li&gt;What are the pros and cons of medical tourism?&lt;/li&gt;
-  &lt;li&gt;Are insurance co-pays useful?&lt;/li&gt;
-  &lt;li&gt;Are data-centric biotech companies ever going to make any money?&lt;/li&gt;
-  &lt;li&gt;Are there any good opportunities for veterinary-human crossover drug discovery?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Protein structures are like Niagara Falls. Everybody can’t wait to see it, and then you finally get there and just say “Oh. Nice.”<br />
+- RA</p>
 
-&lt;h3 id=&quot;computer-science&quot;&gt;Computer science&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;What is the minimum number of dimensions necessary to implement a universal classical computer?&lt;/li&gt;
-  &lt;li&gt;Are computational kinetics provable? (i.e. can we determine analytically which processes cannot be computed faster on an alternative architectures without having to simulate them?)&lt;/li&gt;
-  &lt;li&gt;Will homeomorphic encryption become practical anytime soon?&lt;/li&gt;
-  &lt;li&gt;How probabilistic is software debugging? How much of it can be automated?&lt;/li&gt;
-  &lt;li&gt;What are the potential uses of evolutionary algorithms?&lt;/li&gt;
-  &lt;li&gt;Can more computation be &lt;a href=&quot;https://en.wikipedia.org/wiki/Memoization&quot;&gt;memoized&lt;/a&gt; than we think?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+You can’t find the molecule, feed it to the mice, design the label on the box and send it to the pharmacy yourself.<br />
+- KC</p>
 
-&lt;h3 id=&quot;chemistry&quot;&gt;Chemistry&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Do microwaves have any non-thermal effects on reaction kinetics?&lt;/li&gt;
-  &lt;li&gt;How useful is light in imparting enantioselectivity?&lt;/li&gt;
-  &lt;li&gt;How well can organisms discriminate isotopes?&lt;/li&gt;
-  &lt;li&gt;Would ice polymorphs with densities close to water allow us to freeze tissues without cryoprotectants?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+The immune system is about the worst thing that ever happened to the average cell.<br />
+- GK</p>
 
-&lt;h3 id=&quot;physics&quot;&gt;Physics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Can the reverse of a microwave oven exist? I.e. “stimulated radiative cooling”.&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+An R01 is probably one of the harder ways to get your hands on a half a million dollars.<br />
+- JLWM</p>
 
-&lt;h5 id=&quot;thermodynamics&quot;&gt;Thermodynamics&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Can some formal expression describe the minimal energetic costs of molecular quality control?&lt;/li&gt;
-  &lt;li&gt;How does Shannon entropy relate to Boltzmann entropy? (I read &lt;a href=&quot;https://en.wikipedia.org/wiki/Entropy_in_thermodynamics_and_information_theory&quot;&gt;answers&lt;/a&gt; to this one once in a while, but I don’t really get it yet. It seems like the most important and fundamental bit of science that I never encountered in school.)&lt;/li&gt;
-  &lt;li&gt;Can we measure the information content of matter through calorimetry?
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;Thought experiment&lt;/em&gt;: I have one hard drive filled with random data and another that has 1s and 0s in strict alternation. I put them both in a perfect bomb calorimeter. Do they evolve different amounts of heat?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Don’t let anyone talk to you like that . . .  You can just go out there and do anything. It not like in school. I can go buy Goldman Sachs tomorrow if I can convince the right people to lend me money. No one is checking my report card.<br />
+- BM</p>
 
-&lt;h3 id=&quot;economics&quot;&gt;Economics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;What curve describes the discount rate?&lt;/li&gt;
-  &lt;li&gt;Why do many countries tax short term capital gains at a higher rate?&lt;/li&gt;
-  &lt;li&gt;What seemingly worthless data today will become valuable in the future?
-    &lt;ul&gt;
-      &lt;li&gt;What are we not recording that we should?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Would semi-sovereign industries solve any social or technological problems?&lt;/li&gt;
-  &lt;li&gt;Why would someone buy a negative yield bond?
-    &lt;ul&gt;
-      &lt;li&gt;What are the macro / cultural implications of negative yields?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Everything interesting in cell biology is happening in pond scum.<br />
+- GK</p>
 
-&lt;h3 id=&quot;invention&quot;&gt;Invention&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Are nicotine beverages effective stimulants?&lt;/li&gt;
-  &lt;li&gt;Is it possible to enhance the light harvesting capacity of plants by engineering synthetic FRET pairs that donate to the natural chromophores?&lt;/li&gt;
-  &lt;li&gt;Can we make bacterial nitrogen fixation cheaper than the Haber process for fertilizer production?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+It’s a nice courtyard, sure. I’d rather own Genentech… but nice.<br />
+- NL, on Restriction Enzyme Courtyard at JHMI</p>
 
-&lt;h5 id=&quot;cooling&quot;&gt;Cooling&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;How can we develop personal cooling devices and cooling clothing?&lt;/li&gt;
-  &lt;li&gt;Is residential evaporative cooling cost effective?&lt;/li&gt;
-  &lt;li&gt;Why don’t we evaporate the condensation from an air conditioner off of the condenser unit?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+Why apply for a million dollars when I can get a billion dollars?<br />
+- CV</p>
 
-&lt;h3 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why does induction work sometimes?&lt;/li&gt;
-  &lt;li&gt;How do you know whether you should follow someone’s advice?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+<a href="https://www.goodreads.com/quotes/353571-a-foolish-consistency-is-the-hobgoblin-of-little-minds-adored">Consistency</a> is the spice of life.<br />
+- JWM</p>
 
-&lt;h3 id=&quot;sport&quot;&gt;Sport&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Are we using enough data in recreational sports?&lt;/li&gt;
-  &lt;li&gt;Does weightlifting confound mainstream health recommendations?&lt;/li&gt;
-  &lt;li&gt;How many kinds of athletic stimulus promote health?&lt;/li&gt;
-  &lt;li&gt;How much does optimal work volume for strength training vary between individuals?&lt;/li&gt;
-  &lt;li&gt;Does holding your breath while exercising (or while sedentary) enhance cardiovascular fitness?&lt;/li&gt;
-  &lt;li&gt;What kind of training reduces back pain?&lt;/li&gt;
-  &lt;li&gt;Which sports stimulate the most diverse movement patterns?&lt;/li&gt;
-  &lt;li&gt;What are the best predictors of which sports you will be the best at?&lt;/li&gt;
-&lt;/ul&gt;
+<p><br />
+When I really do someone a favor I’m more likely to end up with an acknowledgement than an authorship. Why aren’t we keeping track of that?<br />
+- TA (paraphrase)</p>
 
-&lt;h3 id=&quot;misc&quot;&gt;Misc.&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;How should we decide whether to perform a destructive assay on a historical artifact?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="questions," /><category term="research," /><category term="science" /><summary type="html">A running list of questions that occur to me. I often ask questions on Quora as well.</summary></entry></feed>
+<p><br />
+I wish it was like old times where you can mess around with experiments at your house all day and just write your friends a letter when you find something cool.<br />
+- AT</p>
+
+<p><br />
+Biology isn’t like building a bridge. It’s less incremental. It’s more like island hopping. If you don’t make it to another island you don’t really get anywhere.<br />
+-AL</p>
+
+<p><br />
+It’s a great assay. The incubation time is exactly the length of my TV show.<br />
+- LM</p>
+
+<p><br />
+People will do anything to get their paper picked up by the big journals except write better.<br />
+- GK</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.]]></summary></entry><entry><title type="html">Questions</title><link href="http://localhost:4000/questions" rel="alternate" type="text/html" title="Questions" /><published>2021-08-28T00:00:00-04:00</published><updated>2021-08-28T00:00:00-04:00</updated><id>http://localhost:4000/questions</id><content type="html" xml:base="http://localhost:4000/questions"><![CDATA[<p>A running list of questions that occur to me. I often ask questions on <a href="https://www.quora.com/profile/Josh-McNamara/questions">Quora</a> as well.</p>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#biology" id="markdown-toc-biology">Biology</a>    <ul>
+      <li><a href="#medicine-and-drug-discovery" id="markdown-toc-medicine-and-drug-discovery">Medicine and drug discovery</a></li>
+      <li><a href="#aging" id="markdown-toc-aging">Aging</a></li>
+      <li><a href="#misc-biology" id="markdown-toc-misc-biology">Misc. Biology</a></li>
+    </ul>
+  </li>
+  <li><a href="#research-institutions-and-culture" id="markdown-toc-research-institutions-and-culture">Research institutions and culture</a></li>
+  <li><a href="#healthcare-business-and-economics" id="markdown-toc-healthcare-business-and-economics">Healthcare business and economics</a></li>
+  <li><a href="#computer-science" id="markdown-toc-computer-science">Computer science</a></li>
+  <li><a href="#chemistry" id="markdown-toc-chemistry">Chemistry</a></li>
+  <li><a href="#physics" id="markdown-toc-physics">Physics</a>    <ul>
+      <li><a href="#thermodynamics" id="markdown-toc-thermodynamics">Thermodynamics</a></li>
+    </ul>
+  </li>
+  <li><a href="#economics" id="markdown-toc-economics">Economics</a></li>
+  <li><a href="#invention" id="markdown-toc-invention">Invention</a>    <ul>
+      <li><a href="#cooling" id="markdown-toc-cooling">Cooling</a></li>
+    </ul>
+  </li>
+  <li><a href="#philosophy" id="markdown-toc-philosophy">Philosophy</a></li>
+  <li><a href="#sport" id="markdown-toc-sport">Sport</a></li>
+  <li><a href="#misc" id="markdown-toc-misc">Misc.</a></li>
+</ul>
+
+<hr />
+
+<h3 id="biology">Biology</h3>
+<h5 id="medicine-and-drug-discovery">Medicine and drug discovery</h5>
+<ul>
+  <li>Would use of additional dyes in routine histology improve its diagnostic capacity?</li>
+  <li>Can acne be treated with bacteriophage?</li>
+  <li>Can we infer pairs of bacteria and phage that kill each other from their covariation in metagenomic sequencing experiments?</li>
+  <li>Why do people have allergies to the same things?</li>
+  <li>Why is myopia on the rise, and what can we do about it?</li>
+  <li>Why are autoimmune diseases becoming more prevalent?</li>
+  <li>Why is obesity becoming more prevalent?</li>
+  <li>Do we really understand the cause of atherosclerosis, the leading killer of humans globally?</li>
+  <li>Are parasite-derived immunosuppressants useful as therapeutics?</li>
+  <li>Can T cell and B cell receptor repertoire sequencing serve as a “universal diagnostic” and enable the discovery of new drug targets?</li>
+  <li>How effective will NK cell therapies be in treating solid tumors?</li>
+  <li>Have we dismissed anything as quackery that will turn out to be a useful therapy?</li>
+  <li>Is rational drug design overrated?</li>
+  <li>How can we use experimental evolution to develop better drugs?</li>
+  <li>Should we care about unintended laboratory evolution in model organisms?</li>
+  <li>How does sugar cause pain sensation in teeth?</li>
+  <li>Which treatments work for chronic back pain?</li>
+  <li>How can we make pre-clinical assays of drug candidates more predictive?</li>
+  <li>How can we deal with evolved resistance to therapies?</li>
+  <li>How much can polygenic traits be modulated by single mutations or treatment with a single drug?</li>
+  <li>Which foods are the most thermogenic?</li>
+  <li>Which drugs enhance cognition?</li>
+  <li>What goes wrong when we try to freeze organs?</li>
+</ul>
+
+<h5 id="aging">Aging</h5>
+<ul>
+  <li>Why aren’t longevity mutations discovered in mutagenesis screens extant in wild-type populations?</li>
+  <li>Do diseases of aging share common causes?
+    <ul>
+      <li>Should we continue to address them on a disease-by-disease basis?</li>
+    </ul>
+  </li>
+  <li>Why can’t age-associated aggregates like drusen, lipofuscin, amyloid, Lewy bodies, and glycation be degraded?</li>
+  <li>Why don’t artificial hearts last forever?</li>
+  <li>Which interventions currently reduce all-cause mortality?</li>
+  <li>Does evolutionary theory contradict some of the most popular theories of the cause of aging? (Read <a href="https://www.faculty.uci.edu/profile.cfm?faculty_id=5261">Michael Rose</a> for an aging Theory of Everything.)</li>
+</ul>
+
+<h5 id="misc-biology">Misc. Biology</h5>
+<ul>
+  <li>Why are mammalian sex ratios roughly equal?</li>
+  <li>How do cells adjust to cold shocks?</li>
+  <li>How does karyotypic speciation happen in sexual organisms, given that their karyotype must be compatible with a mate’s?</li>
+  <li>Is x-chromosome inactivation reversible?</li>
+  <li>What determines the reversibility of mitotic exit?</li>
+  <li>How much information is in a cell?</li>
+  <li>Does <a href="https://en.wikipedia.org/wiki/Muller%27s_ratchet">Muller’s ratchet</a> make sense?</li>
+  <li>How does biomineral morphogenesis (growth of bones, diatoms, etc.) work?</li>
+</ul>
+
+<h3 id="research-institutions-and-culture">Research institutions and culture</h3>
+<ul>
+  <li>How useful is basic biology research?</li>
+  <li>How useful are research exercises, vs just working on a real problem?</li>
+  <li>Which tools can I use to enhance my thinking?</li>
+  <li>Should researchers be teachers?</li>
+  <li>How can we improve scientific education?</li>
+  <li>Can bureaucracies make discoveries?</li>
+  <li>How much of institutional excellence is feedback from good recruiting?</li>
+  <li>Does earmarking research grants increase or decrease capital efficiency?</li>
+</ul>
+
+<h3 id="healthcare-business-and-economics">Healthcare business and economics</h3>
+<ul>
+  <li>Is the pace of drug discovery stagnating (a.k.a. <a href="https://en.wikipedia.org/wiki/Eroom%27s_law">Eroom’s law</a>)?</li>
+  <li>Is the pace of medical innovation stagnating?</li>
+  <li>How should we interpret the <a href="https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment">RAND Health Insurance Experiment</a>?</li>
+  <li>Why isn’t it profitable to develop new antibiotics?</li>
+  <li>Are American insulin prices a scam?</li>
+  <li>How can we improve electronic medical records to improve patient care and accelerate drug discovery?</li>
+  <li>Should we donate our electronic medical records to the public upon dying?</li>
+  <li>How does cash payment for treatments influence affordability and innovation in medicine?</li>
+  <li>Are patent protections for biologic drugs useful to society?</li>
+  <li>What kinds of medical innovations can be successful when intellectual property and regulatory protections are weak?</li>
+  <li>Why are successful biotech venture capital firms adapting a “venture creation” model, where ventures are started in-house?</li>
+  <li>Are discovery-phase research programs at large pharmaceutical companies productive?</li>
+  <li>What are the biggest secular trends in healthcare / biotech / pharma?</li>
+  <li>Would it be useful to be able to bet directly on the outcome of clinical trials without trading a company’s shares?</li>
+  <li>What are the pros and cons of medical tourism?</li>
+  <li>Are insurance co-pays useful?</li>
+  <li>Are data-centric biotech companies ever going to make any money?</li>
+  <li>Are there any good opportunities for veterinary-human crossover drug discovery?</li>
+</ul>
+
+<h3 id="computer-science">Computer science</h3>
+<ul>
+  <li>What is the minimum number of dimensions necessary to implement a universal classical computer?</li>
+  <li>Are computational kinetics provable? (i.e. can we determine analytically which processes cannot be computed faster on an alternative architectures without having to simulate them?)</li>
+  <li>Will homeomorphic encryption become practical anytime soon?</li>
+  <li>How probabilistic is software debugging? How much of it can be automated?</li>
+  <li>What are the potential uses of evolutionary algorithms?</li>
+  <li>Can more computation be <a href="https://en.wikipedia.org/wiki/Memoization">memoized</a> than we think?</li>
+</ul>
+
+<h3 id="chemistry">Chemistry</h3>
+<ul>
+  <li>Do microwaves have any non-thermal effects on reaction kinetics?</li>
+  <li>How useful is light in imparting enantioselectivity?</li>
+  <li>How well can organisms discriminate isotopes?</li>
+  <li>Would ice polymorphs with densities close to water allow us to freeze tissues without cryoprotectants?</li>
+</ul>
+
+<h3 id="physics">Physics</h3>
+<ul>
+  <li>Can the reverse of a microwave oven exist? I.e. “stimulated radiative cooling”.</li>
+</ul>
+
+<h5 id="thermodynamics">Thermodynamics</h5>
+<ul>
+  <li>Can some formal expression describe the minimal energetic costs of molecular quality control?</li>
+  <li>How does Shannon entropy relate to Boltzmann entropy? (I read <a href="https://en.wikipedia.org/wiki/Entropy_in_thermodynamics_and_information_theory">answers</a> to this one once in a while, but I don’t really get it yet. It seems like the most important and fundamental bit of science that I never encountered in school.)</li>
+  <li>Can we measure the information content of matter through calorimetry?
+    <ul>
+      <li><em>Thought experiment</em>: I have one hard drive filled with random data and another that has 1s and 0s in strict alternation. I put them both in a perfect bomb calorimeter. Do they evolve different amounts of heat?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="economics">Economics</h3>
+<ul>
+  <li>What curve describes the discount rate?</li>
+  <li>Why do many countries tax short term capital gains at a higher rate?</li>
+  <li>What seemingly worthless data today will become valuable in the future?
+    <ul>
+      <li>What are we not recording that we should?</li>
+    </ul>
+  </li>
+  <li>Would semi-sovereign industries solve any social or technological problems?</li>
+  <li>Why would someone buy a negative yield bond?
+    <ul>
+      <li>What are the macro / cultural implications of negative yields?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="invention">Invention</h3>
+<ul>
+  <li>Are nicotine beverages effective stimulants?</li>
+  <li>Is it possible to enhance the light harvesting capacity of plants by engineering synthetic FRET pairs that donate to the natural chromophores?</li>
+  <li>Can we make bacterial nitrogen fixation cheaper than the Haber process for fertilizer production?</li>
+</ul>
+
+<h5 id="cooling">Cooling</h5>
+<ul>
+  <li>How can we develop personal cooling devices and cooling clothing?</li>
+  <li>Is residential evaporative cooling cost effective?</li>
+  <li>Why don’t we evaporate the condensation from an air conditioner off of the condenser unit?</li>
+</ul>
+
+<h3 id="philosophy">Philosophy</h3>
+<ul>
+  <li>Why does induction work sometimes?</li>
+  <li>How do you know whether you should follow someone’s advice?</li>
+</ul>
+
+<h3 id="sport">Sport</h3>
+<ul>
+  <li>Are we using enough data in recreational sports?</li>
+  <li>Does weightlifting confound mainstream health recommendations?</li>
+  <li>How many kinds of athletic stimulus promote health?</li>
+  <li>How much does optimal work volume for strength training vary between individuals?</li>
+  <li>Does holding your breath while exercising (or while sedentary) enhance cardiovascular fitness?</li>
+  <li>What kind of training reduces back pain?</li>
+  <li>Which sports stimulate the most diverse movement patterns?</li>
+  <li>What are the best predictors of which sports you will be the best at?</li>
+</ul>
+
+<h3 id="misc">Misc.</h3>
+<ul>
+  <li>How should we decide whether to perform a destructive assay on a historical artifact?</li>
+</ul>]]></content><author><name></name></author><category term="questions," /><category term="research," /><category term="science" /><summary type="html"><![CDATA[A running list of questions that occur to me. I often ask questions on Quora as well.]]></summary></entry></feed>
