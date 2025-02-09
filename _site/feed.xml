@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://j-mcnamara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://j-mcnamara.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-02-02T16:15:32-05:00</updated><id>https://j-mcnamara.github.io/feed.xml</id><title type="html">Josh McNamara</title><entry><title type="html">Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy</title><link href="https://j-mcnamara.github.io/glioma" rel="alternate" type="text/html" title="Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy" /><published>2025-02-02T00:00:00-05:00</published><updated>2025-02-02T00:00:00-05:00</updated><id>https://j-mcnamara.github.io/glioma-drugs</id><content type="html" xml:base="https://j-mcnamara.github.io/glioma"><![CDATA[<p><strong>Abstract</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-02-08T21:11:53-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Josh McNamara</title><entry><title type="html">smoosh: effortlessly copy an entire software project to the clipboard and share with AI</title><link href="http://localhost:4000/smoosh" rel="alternate" type="text/html" title="smoosh: effortlessly copy an entire software project to the clipboard and share with AI" /><published>2025-02-08T00:00:00-05:00</published><updated>2025-02-08T00:00:00-05:00</updated><id>http://localhost:4000/smoosh</id><content type="html" xml:base="http://localhost:4000/smoosh"><![CDATA[<h3 id="problem">Problem</h3>
+<p>AI tools have made it a great time to be a bad programmer and still get things done. I use ChatGPT and Claude for help with programming tasks for scientific work and hobby projects. I have played around with AI-integrated editors like VSCode + Copilot, but the response quality has generally been better in the classic chat interfaces.</p>
+
+<p>When working with larger multi-file projects you can’t just paste your script into the chat interface and get good advice. You need more context in the prompt, but copying and pasting several files and explaining their directory structure is tedious.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p><strong>smoosh</strong> is an easy way to snapshot a whole project to the clipboard and paste it into a chat interface. First, it generates a tree diagram of the project’s files. Then, it concatenates this with the names and contents of all text files in the project directory and copies them to the clipboard. The terminal output is a simple summary of the repository size and structure. smoosh excludes non-text files, large files, and anything set in your .gitignore, so you won’t waste tokens on binaries, caches, and other extraneous data.</p>
+
+<p>You can check out the GitHub repo <a href="(https://github.com/J-McNamara/smoosh)">here</a>.</p>
+
+<p><strong>Use Cases</strong></p>
+
+<ul>
+  <li><strong>Project-wide assistance:</strong> Get help with multi-file programs without tediously copying files one by one</li>
+  <li><strong>Code comprehension:</strong> Quickly understand cloned repositories by getting AI assistance with the overall structure</li>
+  <li><strong>Documentation gaps:</strong> Fill in the blanks when official documentation falls short</li>
+  <li><strong>Quick modifications:</strong> Make targeted changes to packages without having to learn its development conventions</li>
+</ul>
+
+<h3 id="to-install-run">To install, run:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install smoosh
+</code></pre></div></div>
+
+<h3 id="example-use">Example use:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>smoosh my_project
+</code></pre></div></div>
+<p>where my_project is a git repo or any directory that contains text files.</p>
+
+<h3 id="example-terminal-output">Example terminal output:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>╭───────────────────────────────────────────────────────╮
+│ 🐍 smoosh v0.1.3 - Making Python packages digestible! │
+╰───────────────────────────────────────────────────────╯
+⠋ Analyzing repository...INFO: Processing directory at .
+✨ Output copied to clipboard!
+        Analysis Results
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Metric              ┃ Value  ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ Repository Size     │ 0.00MB │
+│ Total Files         │ 4      │
+│ Python Files        │ 1      │
+│ Original Lines      │ 5      │
+│ Composed Lines      │ 16     │
+│ Original Characters │ 97     │
+│ Composed Characters │ 211    │
+│ Lines Ratio         │ 3.20x  │
+│ Characters Ratio    │ 2.18x  │
+└─────────────────────┴────────┘
+⠹ Analyzing repository...
+⠹ Generating summary...
+</code></pre></div></div>
+
+<h3 id="example-clipboard-output">Example clipboard output:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Repository:
+Mode: cat
+Files: 4 (1 Python)
+Total Size: 0.00MB
+
+Repository Structure:
+./
+    ├── .gitignore
+    ├── hello_world.py
+    ├── hello_world.sh
+    └── README.md
+
+
+
+### File: .gitignore ###
+data/*
+
+
+### File: README.md ###
+This is sample text for a readme!
+
+
+### File: hello_world.py ###
+print("Hello, World!")
+
+
+### File: hello_world.sh ###
+#!/bin/bash
+echo "Hello, World!"
+
+</code></pre></div></div>]]></content><author><name></name></author><category term="ai," /><category term="software," /><category term="coding," /><category term="ideas" /><summary type="html"><![CDATA[smoosh makes it easier to get help with coding in a chat interface]]></summary></entry><entry><title type="html">Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy</title><link href="http://localhost:4000/glioma" rel="alternate" type="text/html" title="Mutant IDH-Activated Cytotoxic Prodrugs for Glioma Therapy" /><published>2025-02-02T00:00:00-05:00</published><updated>2025-02-02T00:00:00-05:00</updated><id>http://localhost:4000/glioma-drugs</id><content type="html" xml:base="http://localhost:4000/glioma"><![CDATA[<p><strong>Abstract</strong></p>
 
 <p>IDH1-mutant gliomas produce the oncometabolite D-2HG, driving tumor progression through metabolic and epigenetic disruption. While IDH inhibitors like vorasidenib slow tumor growth, they do not eradicate cancer cells. This article explores a novel strategy: cytotoxic prodrugs selectively activated by mutant IDH1, offering a targeted approach to directly kill tumor cells while minimizing harm to normal tissue. By leveraging the unique biochemistry of IDH1-mutant tumors, these prodrugs could provide a more effective treatment option beyond current IDH inhibitors.</p>
 
@@ -79,7 +164,7 @@ By confining drug activation to cells harboring IDH1 (R132H), systemic toxicity 
 
 <h3 id="nadph-linked-prodrug">NADPH-Linked Prodrug</h3>
 <p><strong>Mechanism Sketch:</strong> Redox-mediated release of an alkylating agent.
-<img src="assets/img/chemistry-notebook_11_0.png" alt="png" /></p>]]></content><author><name></name></author><category term="drug-discovery," /><category term="cancer," /><category term="research," /><category term="science," /><category term="ideas" /><summary type="html"><![CDATA[Going from mutant-selective inhibition to mutant-selective toxicity.]]></summary></entry><entry><title type="html">Science Quotes</title><link href="https://j-mcnamara.github.io/science-quotes" rel="alternate" type="text/html" title="Science Quotes" /><published>2022-08-08T00:00:00-04:00</published><updated>2022-08-08T00:00:00-04:00</updated><id>https://j-mcnamara.github.io/science-quotes</id><content type="html" xml:base="https://j-mcnamara.github.io/science-quotes"><![CDATA[<p>A few quotes on science I’ve read or heard in lectures.</p>
+<img src="assets/img/chemistry-notebook_11_0.png" alt="png" /></p>]]></content><author><name></name></author><category term="drug-discovery," /><category term="cancer," /><category term="research," /><category term="science," /><category term="ideas" /><summary type="html"><![CDATA[Going from mutant-selective inhibition to mutant-selective toxicity.]]></summary></entry><entry><title type="html">Science Quotes</title><link href="http://localhost:4000/science-quotes" rel="alternate" type="text/html" title="Science Quotes" /><published>2022-08-08T00:00:00-04:00</published><updated>2022-08-08T00:00:00-04:00</updated><id>http://localhost:4000/science-quotes</id><content type="html" xml:base="http://localhost:4000/science-quotes"><![CDATA[<p>A few quotes on science I’ve read or heard in lectures.</p>
 
 <hr />
 
@@ -97,7 +182,7 @@ To have one experiment that works, and keep doing it all the time.<br />
 
 <p><br />
 <em>kT</em> giveth, and <em>kT</em> taketh away.<br />
-- Harry Noller, lecture at JHMI</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science I’ve read or heard in lectures.]]></summary></entry><entry><title type="html">Friend Quotes on Science and Business</title><link href="https://j-mcnamara.github.io/friend-quotes" rel="alternate" type="text/html" title="Friend Quotes on Science and Business" /><published>2021-09-12T00:00:00-04:00</published><updated>2021-09-12T00:00:00-04:00</updated><id>https://j-mcnamara.github.io/friend-quotes-on-science</id><content type="html" xml:base="https://j-mcnamara.github.io/friend-quotes"><![CDATA[<p>A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.</p>
+- Harry Noller, lecture at JHMI</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science I’ve read or heard in lectures.]]></summary></entry><entry><title type="html">Friend Quotes on Science and Business</title><link href="http://localhost:4000/friend-quotes" rel="alternate" type="text/html" title="Friend Quotes on Science and Business" /><published>2021-09-12T00:00:00-04:00</published><updated>2021-09-12T00:00:00-04:00</updated><id>http://localhost:4000/friend-quotes-on-science</id><content type="html" xml:base="http://localhost:4000/friend-quotes"><![CDATA[<p>A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.</p>
 
 <hr />
 
@@ -187,7 +272,7 @@ It’s a great assay. The incubation time is exactly the length of my TV show.<b
 
 <p><br />
 People will do anything to get their paper picked up by the big journals except write better.<br />
-- GK</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.]]></summary></entry><entry><title type="html">Questions</title><link href="https://j-mcnamara.github.io/questions" rel="alternate" type="text/html" title="Questions" /><published>2021-08-28T00:00:00-04:00</published><updated>2021-08-28T00:00:00-04:00</updated><id>https://j-mcnamara.github.io/questions</id><content type="html" xml:base="https://j-mcnamara.github.io/questions"><![CDATA[<p>A running list of questions that occur to me. I often ask questions on <a href="https://www.quora.com/profile/Josh-McNamara/questions">Quora</a> as well.</p>
+- GK</p>]]></content><author><name></name></author><category term="research," /><category term="science," /><category term="lists," /><category term="quotes" /><summary type="html"><![CDATA[A few quotes on science and business from friends, colleagues, and mentors, as best as I can remember.]]></summary></entry><entry><title type="html">Questions</title><link href="http://localhost:4000/questions" rel="alternate" type="text/html" title="Questions" /><published>2021-08-28T00:00:00-04:00</published><updated>2021-08-28T00:00:00-04:00</updated><id>http://localhost:4000/questions</id><content type="html" xml:base="http://localhost:4000/questions"><![CDATA[<p>A running list of questions that occur to me. I often ask questions on <a href="https://www.quora.com/profile/Josh-McNamara/questions">Quora</a> as well.</p>
 
 <hr />
 
