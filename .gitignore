@@ -1,9 +1,9 @@
-_site
-_posts/_site
+_site/
+_posts/_site/
 .bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata/
 .DS_store
 .ruby-version
 .tweet-cache
