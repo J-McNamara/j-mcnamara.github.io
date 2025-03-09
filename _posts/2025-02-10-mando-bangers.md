@@ -64,7 +64,7 @@ The whole album is great
 <br><br>
 
 
-**David Grisman Quintet - Masterful Blend of Bluegrass and Jazz**
+**David Grisman Quintet** Think bluegrass meets gypsy jazz
 The whole album is great, so is the sequel
 {% include youtubePlayer.html id="B61C-SQLg9k" %}
 <br><br>
