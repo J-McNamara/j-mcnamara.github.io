@@ -11,8 +11,8 @@ Great tunes featuring the mandolin
 
 ### Classical
 
-**Avi Avital - Vivaldi: Mandolin Concerto In C Major**
-Classic mandolin repertoire
+**Avi Avital - Vivaldi: Mandolin Concerto In C Major**  
+Classic mandolin repertoire.
 {% include youtubePlayer.html id="aXBWrNN64z8" %}
 <br><br>
 
@@ -22,8 +22,8 @@ Classic mandolin repertoire
 <br><br>
 
 
-**Beethoven Rarities**
-I think this is Beethoven's full mandolin repertoire, plus a few violin pieces
+**Beethoven Rarities**  
+I think this is Beethoven's full mandolin repertoire, plus a few violin pieces.
 {% include youtubePlayer.html id="hKuAZm6LQoQ" %}
 <br><br>
 
@@ -38,8 +38,8 @@ I think this is Beethoven's full mandolin repertoire, plus a few violin pieces
 <br><br>
 
 
-**Chris Thile - Bach: Sonata No. 1 in G minor - IV. Presto (Live On Soundcheck)**
-Perhaps more impressive than good
+**Chris Thile - Bach: Sonata No. 1 in G minor - IV. Presto (Live On Soundcheck)**  
+Perhaps more impressive than good.
 {% include youtubePlayer.html id="cxsqtoNTLTo" %}
 <br><br>
 
@@ -51,31 +51,32 @@ Perhaps more impressive than good
 
 
 ### Jazz
-**Don Stiernberg Trio - Live at the Alberta Theatre, Portland OR (2013)**
-Genre-crossing, but jazz trio feel
+**Don Stiernberg Trio - Live at the Alberta Theatre, Portland OR (2013)**  
+Genre-crossing, but jazz trio feel.
 {% include youtubePlayer.html id="nxVdfcsVFJ8" %}
 <br><br>
 
 
 ### Progressive Bluegrass/Newgrass
-**Jacob Jolliff - Leila's Waltz**
-The whole album is great
+**Jacob Jolliff - Leila's Waltz**  
+The whole album is great.
 {% include youtubePlayer.html id="Tzq3Qv4Y0QU" %}
 <br><br>
 
 
-**David Grisman Quintet** Think bluegrass meets gypsy jazz
-The whole album is great, so is the sequel
+**David Grisman Quintet**  
+Think bluegrass meets gypsy jazz. The whole album is great, and so is the sequel.
 {% include youtubePlayer.html id="B61C-SQLg9k" %}
 <br><br>
 
 
 ## Christmas
-**The Natale Italian Mandolin Duo - Jesu Joy of Man's Desiring**
-Pretty, unobtrusive Christmas album featuring the classical Neapolitan-syle mandolin
+**The Natale Italian Mandolin Duo - Jesu Joy of Man's Desiring**  
+Pretty, unobtrusive Christmas album featuring the classical Neapolitan-syle mandolin.
 {% include youtubePlayer.html id="WzlnjhK8Cnc" %}
 <br><br>
 
 
-**Modern Mandolin Quartet - The Nutcracker Suite, Op. 71a: I. Miniature Overture** Punchy mandolin orchestra
+**Modern Mandolin Quartet - The Nutcracker Suite, Op. 71a: I. Miniature Overture**  
+Punchy mandolin orchestra.
 {% include youtubePlayer.html id="Wea8JbVmBgc" %}
