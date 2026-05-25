@@ -33,3 +33,7 @@ To have one experiment that works, and keep doing it all the time.
 \
 In this case, though, as in all of molecular biology, closer inspection not only reveals a wealth of impressive detail, but huge numbers of things which do not so much appear to have been carefully crafted by a divine hand, as much as assembled by a blind lunatic with infinite time, infinite willingness to tinker (and a correspondingly infinite willingness to accept whatever works as soon as it does), and infinite supplies of duct tape, super glue, and baling wire. What's more, the whole mechanism keeps falling apart over time in subtle (and not so subtle) ways, which just leads to casual repurposing of the altered pieces.  
 \- **Derek Lowe**, ["The Phosphoproteomic Landscape Speaks - What Did It Say, Again?"](https://www.science.org/content/blog-post/phosphoproteomic-landscape-speaks---what-did-it-say-again)
+
+\
+I don't consider my ideas controversial. I consider them right.  
+\- **Lynn Margulis**
